@@ -64,11 +64,6 @@ section {
     padding-bottom: 30px;
 }
 
-.white {
-    background-color: #fff;
-    color: #000;
-}
-
 .page {
     max-width: 1024px;
     margin-left: auto;
