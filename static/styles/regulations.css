@@ -1,0 +1,67 @@
+.regulations {
+    background-color: #252525;
+    background-image: url('../assets/imgs/get-now.png');
+    color: #fff;
+}
+
+.regs__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pl__flag {
+    height: 24px;
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.regs__item_link {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.regs__container {
+    list-style-type: none;
+    line-height: 2;
+    padding: 0;
+    padding-right: 15px;
+    color: #fff;
+    text-align: right;
+    font-size: 12px;
+}
+
+.regs__btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #fff;
+    padding: 0;
+}
+
+.regs__text {
+    font-weight: 100;
+    font-size: x-small;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+#more {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+    .regs__text {
+        width: 700px;
+        font-size: 12px;
+    }
+
+    .regs__container {
+        padding-right: 50px;
+    }
+}

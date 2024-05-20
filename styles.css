@@ -1,0 +1,95 @@
+@import url(./static/styles/header.css);
+@import url(./static/styles/about.css);
+@import url(./static/styles/regulations.css);
+@import url(./static/styles/contacts.css);
+@import url(./static/styles/scroll.css);
+@import url(./static/styles/partners.css);
+@import url(./static/styles/cookies.css);
+@import url(./static/styles/footer.css);
+@import url(./static/styles/bookpmt.css);
+
+
+
+@font-face {
+    font-display: swap;
+    font-family: "Gilroy";
+    src: url('./static/assets/fonts/Gilroy-Regular.eot');
+    src: url('./static/assets/fonts/Gilroy-Regular.woff') format("woff"),
+        url('./static/assets/fonts/Gilroy-Regular.woff2') format("woff2");
+    font-weight: 400
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Barlow";
+    src: url('./static/assets/fonts/Barlow-Regular.eot');
+    src: url('./static/assets/fonts/Barlow-Regular.woff') format("woff"),
+        url('./static/assets/fonts/Barlow-Regular.woff2') format("woff2");
+    font-weight: 400
+}
+
+* {
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+
+}
+
+a {
+    color: #fff;
+
+}
+
+a:hover {
+    color: #FB0C3B;
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #191919;
+    color: #fff;
+    margin: 0;
+    height: 100%;
+    line-height: 1.5;
+}
+
+section {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.page {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section__title {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    section {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

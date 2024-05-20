@@ -1,0 +1,18 @@
+.bookpmt__widget {
+    width: calc(100vw - 30px);
+    height: 90vw;
+    border: 1px solid #FB0C3B;
+}
+
+@media screen and (min-width: 700px) {
+    .bookpmt__widget {
+        width: calc(100vw - 100px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bookpmt__widget {
+        width: 925px;
+        height: 925px;
+    }
+}
